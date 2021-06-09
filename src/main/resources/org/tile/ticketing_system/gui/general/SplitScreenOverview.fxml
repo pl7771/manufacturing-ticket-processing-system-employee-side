@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+
+
+<fx:root maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: ffffff;" type="SplitPane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" />

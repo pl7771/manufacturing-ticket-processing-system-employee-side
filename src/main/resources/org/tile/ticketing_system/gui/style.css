@@ -1,0 +1,81 @@
+.border {
+    -fx-border-color:  #c6d200;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.button {
+    -fx-background-color:  white;
+    -fx-background-radius:  10px;
+    -fx-border-radius:  10px;
+    -fx-border-color:  #004087;
+    -fx-border-width:  2px;
+    -fx-text-fill:  #232323;
+    -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.2), 2.5, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color:  #c6d200;
+    -fx-background-radius:  10px;
+    -fx-border-radius:  10px;
+    -fx-border-color:  #c6d200;
+    -fx-border-width:  2px;
+    -fx-text-fill:  #004087;
+}
+
+.whitetext{
+    -fx-text-fill:  #FFF;
+}
+
+.minibutton{
+    -fx-text-fill:  #FFF;
+    -fx-background-color:  #004087;
+    -fx-border-radius:  5px;
+}
+
+.table-view .column-header
+ {
+    -fx-background-color:  #c6d200;
+}
+
+.table-view .column-header .table-view .filler
+ {
+    -fx-background-color:  transparent;
+}
+
+.selectedline {
+    -fx-selection-bar: #c6d200;
+    -fx-selection-bar-non-focused: #d8de7a;
+}
+
+
+
+.bijlagebutton{
+    -fx-background-color:  #004087;
+    -fx-border-radius:  5px;
+
+}
+
+ .dialog-pane{
+  -fx-background-color:FFF;
+ }
+
+ .dialog-pane > .content.label {
+    -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+    -fx-background-color: #c6d200;
+    -fx-text-fill:black;
+    -fx-font-size:15.0px;
+ }
+
+ .dialog-pane:header .header-panel {
+   -fx-background-color: #FFF;
+ }
+
+ .dialog-pane .button{
+       -fx-text-fill:  #FFF;
+       -fx-background-color:  #004087;
+       -fx-border-radius:  5px;
+  }
+
+
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="borderPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="519.0" prefWidth="974.0" type="BorderPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox fx:id="hBoxTop" prefWidth="1034.0" style="-fx-background-color: #004087;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <ImageView fitHeight="31.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+            <Image url="@/images/actemium-logo-empotybg.png" />
+         </ImageView>
+         <Button fx:id="btnOverzichtTickets" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnOverzichtTicketsOnAction" style="-fx-background-color: #004087;" text="Overzicht Tickets" textFill="WHITE">
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+         <Button fx:id="btnStatistieken" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnStatistiekenOnAction" style="-fx-background-color: #004087;" text="Statistieken" textFill="WHITE">
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+         </Button>
+         <Button fx:id="btnKPI" alignment="BOTTOM_LEFT" contentDisplay="CENTER" layoutX="207.0" layoutY="15.0" mnemonicParsing="false" onAction="#btnKPIOnAction" style="-fx-background-color: #004087;" text="KPI's" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="btnOverzichtGebruikers" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnOverzichtGebruikersOnAction" style="-fx-background-color: #004087;" text="Overzicht gebruikers" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="btnOverzichtContracten" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnOverzichtContractenOnAction" style="-fx-background-color: #004087;" text="Overzicht contracten" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="btnOverzichtContractTypes" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnOverzichtContractTypesOnAction" style="-fx-background-color: #004087;" text="Overzicht contract types" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="btnKnowledgebase" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnKnowledgeBaseOnAction" style="-fx-background-color: #004087;" text="Raadpleeg knowledgebase" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <Button fx:id="btnDashBoard" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnDashBoardOnAction" style="-fx-background-color: #004087;" text="Dashboard" textFill="WHITE">
+            <font>
+               <Font size="14.0" />
+            </font>
+            <cursor>
+               <Cursor fx:constant="HAND" />
+            </cursor>
+            <HBox.margin>
+               <Insets right="5.0" />
+            </HBox.margin>
+         </Button>
+         <HBox alignment="TOP_RIGHT" prefHeight="0.0" prefWidth="158.0" HBox.hgrow="ALWAYS">
+            <children>
+               <Button fx:id="btnLogout" alignment="BOTTOM_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnLogout" style="-fx-background-color: #004087;" text="Uitloggen" textFill="WHITE">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <HBox.margin>
+                     <Insets right="10.0" />
+                  </HBox.margin>
+               </Button>
+            </children>
+         </HBox>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox prefWidth="641.0" style="-fx-background-color: #004289;" BorderPane.alignment="CENTER">
+         <Label fx:id="lblFooter" text="© 2021 - Actemium" textFill="WHITE">
+            <HBox.margin>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </HBox.margin>
+         </Label>
+      </HBox>
+   </bottom>
+</fx:root>
